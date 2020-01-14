@@ -1,0 +1,198 @@
+.search {
+  margin: auto;
+  max-width: calc(80% + 10vmin);
+}
+
+.filterButton {
+  margin: 1em auto;
+}
+
+.filterOptionDrawer {
+  overflow: scroll;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.mainContent {
+  display: block;
+  overflow: auto;
+  background-image: url('\images\CH-47_Chinook_helicopter_flyby.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: calc(30px + 3vw);
+  width: 100vw;
+  height: 100vh;
+}
+
+.navHeaderFont {
+  font-size: calc(8px + 1vw);
+}
+
+.loginNav {
+  text-align: right;
+}
+
+.smallContent {
+  height: 100vh;
+}
+
+.detailContent {
+  font-size: calc(30px + 3vw);
+  height: fit-content;
+  width: 100vw;
+}
+
+.detailListItem {
+  font-size: 3vh;
+  color: black;
+}
+
+.ant-input {
+  height: 2.5em;
+}
+
+.userLogin {
+  float: right;
+  border-radius: 20px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.detailImg {
+  max-width: 75%;
+}
+
+.heliDescriptions {
+  display: flex;
+}
+
+.heli-title {
+  margin: 5% 0 0 25%;
+}
+
+.helicopter-Img {
+  height: 20vmin;
+  object-fit: cover;
+}
+
+.ant-drawer-mask {
+  position: fixed;
+}
+
+.loginCard {
+  width: 60%;
+  margin: 10vmin auto;
+  height: 50vh;
+  text-align: center;
+  padding: 1vmin;
+  height: fit-content;
+}
+
+.logout {
+  color: red;
+}
+
+.loginButton {
+  margin: 0 0 15px 0;
+}
+
+.ant-card-body {
+  padding: 24px;
+  zoom: 1;
+}
+
+.loginIcon {
+  margin: -100px 0 5px 0;
+  border: solid 1px gray;
+}
+
+.ant-card-cover img {
+  border-radius: 2px 2px 0 0;
+}
+
+.emptyResultMessage {
+  font-size: 65%;
+  color: midnightblue;
+  background-color: white;
+  width: 80vw;
+  margin: auto;
+}
+
+.addHeliButton {
+  margin-bottom: 1vmax;
+}
+
+.ant-drawer-close, .ant-drawer-close:hover {
+  color: white;
+}
+
+.big-title {
+  color: midnightblue;
+  text-shadow: white 1px 0 10px;
+  padding-top: 2vh;
+}
+
+.drawerContentTitle {
+  color: white;
+}
+
+#ant-drawer-content-wrapper {
+  height: fit-content;
+}
+
+.ant-drawer .ant-drawer-content .ant-drawer-body {
+  background-color: midnightblue;
+  color: white;
+}
+
+
+.ant-drawer .ant-drawer-content, .ant-drawer-content-wrapper {
+  height: fit-content;
+}
+
+.ant-layout {
+  text-align: center;
+}
+
+.menuIcon {
+  padding-top: 4.5vh;
+}
+
+.ant-form-item-control {
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 1361px) {
+  .loginCard {
+    width: 90%;
+    margin: 10vmin auto;
+    text-align: center;
+    padding: 1vmin;
+  }
+
+  .helicopter-Img {
+    height: 28vmin;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 575px) {
+  .helicopter-Img {
+    height: 50vmin;
+    object-fit: cover;
+  }
+
+  .big-title {
+    color: midnightblue;
+    text-shadow: white 1px 0 10px;
+    padding: 1vh 0;
+  }
+}
